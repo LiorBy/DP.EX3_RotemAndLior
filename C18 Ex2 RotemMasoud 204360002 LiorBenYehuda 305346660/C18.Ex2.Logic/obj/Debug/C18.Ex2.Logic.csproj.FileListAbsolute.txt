@@ -1,0 +1,6 @@
+C:\projects\DP.Ex1\C18 Ex2 RotemMasoud 204360002 LiorBenYehuda 305346660\C18.Ex2.Logic\bin\Debug\C18.Ex1.Logic.dll
+C:\projects\DP.Ex1\C18 Ex2 RotemMasoud 204360002 LiorBenYehuda 305346660\C18.Ex2.Logic\bin\Debug\C18.Ex1.Logic.pdb
+C:\projects\DP.Ex1\C18 Ex2 RotemMasoud 204360002 LiorBenYehuda 305346660\C18.Ex2.Logic\bin\Debug\Facebook.dll
+C:\projects\DP.Ex1\C18 Ex2 RotemMasoud 204360002 LiorBenYehuda 305346660\C18.Ex2.Logic\bin\Debug\FbGraphApiWrapper.dll
+C:\projects\DP.Ex1\C18 Ex2 RotemMasoud 204360002 LiorBenYehuda 305346660\C18.Ex2.Logic\obj\Debug\C18.Ex1.Logic.dll
+C:\projects\DP.Ex1\C18 Ex2 RotemMasoud 204360002 LiorBenYehuda 305346660\C18.Ex2.Logic\obj\Debug\C18.Ex1.Logic.pdb
