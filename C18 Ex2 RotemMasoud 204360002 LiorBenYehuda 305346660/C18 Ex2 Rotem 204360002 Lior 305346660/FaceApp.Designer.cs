@@ -38,14 +38,12 @@ namespace C18_Ex1_Rotem_204360002_Lior_305346660
             System.Windows.Forms.Label firstNameLabel;
             this.connectButton = new System.Windows.Forms.Button();
             this.lastPostsListBox = new System.Windows.Forms.ListBox();
-            this.pictureBoxRandomFriendProfilePic = new System.Windows.Forms.PictureBox();
             this.showInfoButton = new System.Windows.Forms.Button();
             this.UserInfoTextBox = new System.Windows.Forms.RichTextBox();
             this.LastPostsButtom = new System.Windows.Forms.Button();
             this.buttonSetStatus = new System.Windows.Forms.Button();
             this.logOutButton = new System.Windows.Forms.Button();
             this.textBoxStatus = new System.Windows.Forms.TextBox();
-            this.profilePicture = new System.Windows.Forms.PictureBox();
             this.checkFriendsbutton = new System.Windows.Forms.Button();
             this.rememberMecheckBox = new System.Windows.Forms.CheckBox();
             this.timerForLotteryFriends = new System.Windows.Forms.Timer(this.components);
@@ -54,7 +52,6 @@ namespace C18_Ex1_Rotem_204360002_Lior_305346660
             this.welcomLabel = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.userBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.aboutTextBox = new System.Windows.Forms.TextBox();
             this.birthdayTextBox = new System.Windows.Forms.TextBox();
             this.firstNameTextBox = new System.Windows.Forms.TextBox();
@@ -62,14 +59,19 @@ namespace C18_Ex1_Rotem_204360002_Lior_305346660
             this.buttonA_To_Z_Friends = new System.Windows.Forms.Button();
             this.buttonZ_To_A_Friends = new System.Windows.Forms.Button();
             this.buttonByAgeFriends = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.userBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.profilePicture = new System.Windows.Forms.PictureBox();
+            this.pictureBoxRandomFriendProfilePic = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             aboutLabel = new System.Windows.Forms.Label();
             birthdayLabel = new System.Windows.Forms.Label();
             firstNameLabel = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRandomFriendProfilePic)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.profilePicture)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.userBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.profilePicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRandomFriendProfilePic)).BeginInit();
             this.SuspendLayout();
             // 
             // aboutLabel
@@ -105,15 +107,6 @@ namespace C18_Ex1_Rotem_204360002_Lior_305346660
             this.lastPostsListBox.BackColor = System.Drawing.Color.PaleVioletRed;
             this.lastPostsListBox.FormattingEnabled = true;
             this.lastPostsListBox.Name = "lastPostsListBox";
-            // 
-            // pictureBoxRandomFriendProfilePic
-            // 
-            this.pictureBoxRandomFriendProfilePic.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            resources.ApplyResources(this.pictureBoxRandomFriendProfilePic, "pictureBoxRandomFriendProfilePic");
-            this.pictureBoxRandomFriendProfilePic.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBoxRandomFriendProfilePic.Name = "pictureBoxRandomFriendProfilePic";
-            this.pictureBoxRandomFriendProfilePic.TabStop = false;
-            this.pictureBoxRandomFriendProfilePic.Click += new System.EventHandler(this.pictureBoxRandomFriendProfilePic_Click);
             // 
             // showInfoButton
             // 
@@ -162,13 +155,6 @@ namespace C18_Ex1_Rotem_204360002_Lior_305346660
             this.textBoxStatus.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.textBoxStatus.Name = "textBoxStatus";
             // 
-            // profilePicture
-            // 
-            resources.ApplyResources(this.profilePicture, "profilePicture");
-            this.profilePicture.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.profilePicture.Name = "profilePicture";
-            this.profilePicture.TabStop = false;
-            // 
             // checkFriendsbutton
             // 
             resources.ApplyResources(this.checkFriendsbutton, "checkFriendsbutton");
@@ -209,6 +195,8 @@ namespace C18_Ex1_Rotem_204360002_Lior_305346660
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.welcomLabel);
             this.panel1.Controls.Add(this.connectButton);
             this.panel1.Controls.Add(this.logOutButton);
@@ -218,10 +206,6 @@ namespace C18_Ex1_Rotem_204360002_Lior_305346660
             // errorProvider1
             // 
             this.errorProvider1.ContainerControl = this;
-            // 
-            // userBindingSource1
-            // 
-            this.userBindingSource1.DataSource = typeof(FacebookWrapper.ObjectModel.User);
             // 
             // aboutTextBox
             // 
@@ -269,6 +253,39 @@ namespace C18_Ex1_Rotem_204360002_Lior_305346660
             this.buttonByAgeFriends.UseVisualStyleBackColor = true;
             this.buttonByAgeFriends.Click += new System.EventHandler(this.buttonByAgeFriends_Click);
             // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // userBindingSource1
+            // 
+            this.userBindingSource1.DataSource = typeof(FacebookWrapper.ObjectModel.User);
+            // 
+            // profilePicture
+            // 
+            resources.ApplyResources(this.profilePicture, "profilePicture");
+            this.profilePicture.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.profilePicture.Name = "profilePicture";
+            this.profilePicture.TabStop = false;
+            // 
+            // pictureBoxRandomFriendProfilePic
+            // 
+            this.pictureBoxRandomFriendProfilePic.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            resources.ApplyResources(this.pictureBoxRandomFriendProfilePic, "pictureBoxRandomFriendProfilePic");
+            this.pictureBoxRandomFriendProfilePic.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBoxRandomFriendProfilePic.Name = "pictureBoxRandomFriendProfilePic";
+            this.pictureBoxRandomFriendProfilePic.TabStop = false;
+            this.pictureBoxRandomFriendProfilePic.Click += new System.EventHandler(this.pictureBoxRandomFriendProfilePic_Click);
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // FaceApp
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -300,12 +317,12 @@ namespace C18_Ex1_Rotem_204360002_Lior_305346660
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.MinimizeBox = false;
             this.Name = "FaceApp";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRandomFriendProfilePic)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.profilePicture)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.userBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.profilePicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRandomFriendProfilePic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -338,5 +355,7 @@ namespace C18_Ex1_Rotem_204360002_Lior_305346660
         private System.Windows.Forms.Button buttonZ_To_A_Friends;
         private System.Windows.Forms.Button buttonA_To_Z_Friends;
         private System.Windows.Forms.ListBox listBoxFriendUser;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
     }
 }

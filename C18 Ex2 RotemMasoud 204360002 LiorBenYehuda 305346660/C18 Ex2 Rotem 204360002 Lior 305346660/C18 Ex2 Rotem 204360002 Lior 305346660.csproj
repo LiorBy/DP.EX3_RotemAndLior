@@ -50,6 +50,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Appsetting.cs" />
+    <Compile Include="BirthdatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BirthdatForm.Designer.cs">
+      <DependentUpon>BirthdatForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -65,6 +71,9 @@
     <Compile Include="IStatus.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BirthdatForm.resx">
+      <DependentUpon>BirthdatForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FaceApp.resx">
       <DependentUpon>FaceApp.cs</DependentUpon>
     </EmbeddedResource>

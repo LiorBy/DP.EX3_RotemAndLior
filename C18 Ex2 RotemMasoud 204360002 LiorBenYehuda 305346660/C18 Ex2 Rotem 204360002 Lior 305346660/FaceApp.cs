@@ -389,6 +389,17 @@ namespace C18_Ex1_Rotem_204360002_Lior_305346660
             }
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            BirthdatForm birthdayForm = new BirthdatForm(m_LoggedInUser);
+            birthdayForm.ShowDialog();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            label1.Text = DateTime.Now.ToString("dd/MM") + "," + m_LoggedInUser.Birthday.Substring(0,2);
+        }
         ////---------------------------------------////
     }
 }
