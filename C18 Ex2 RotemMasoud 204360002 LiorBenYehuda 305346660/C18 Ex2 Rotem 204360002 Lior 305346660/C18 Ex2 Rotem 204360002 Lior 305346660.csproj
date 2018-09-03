@@ -92,12 +92,6 @@
     <None Include="Resources\Cool-Blue-Backgrounds-4.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\1504126420_conn.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\lior logout.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\signs_click_here-512.png" />
   </ItemGroup>
   <ItemGroup>
@@ -107,7 +101,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\red slot.jpg" />
     <Content Include="Resources\small slot.jpg" />
     <Content Include="Resources\three slot.jpg" />
   </ItemGroup>

@@ -11,3 +11,16 @@ C:\projects\DP.Ex1\C18 Ex2 RotemMasoud 204360002 LiorBenYehuda 305346660\C18 Ex2
 C:\projects\DP.Ex1\C18 Ex2 RotemMasoud 204360002 LiorBenYehuda 305346660\C18 Ex2 Rotem 204360002 Lior 305346660\obj\Debug\C18 Ex2 Rotem 204360002 Lior 305346660.csproj.GenerateResource.Cache
 C:\projects\DP.Ex1\C18 Ex2 RotemMasoud 204360002 LiorBenYehuda 305346660\C18 Ex2 Rotem 204360002 Lior 305346660\obj\Debug\C18 Ex1 Rotem 204360002 Lior 305346660.exe
 C:\projects\DP.Ex1\C18 Ex2 RotemMasoud 204360002 LiorBenYehuda 305346660\C18 Ex2 Rotem 204360002 Lior 305346660\obj\Debug\C18 Ex1 Rotem 204360002 Lior 305346660.pdb
+C:\Users\USER\Documents\GitHub\DP.EX3_RotemAndLior\C18 Ex2 RotemMasoud 204360002 LiorBenYehuda 305346660\C18 Ex2 Rotem 204360002 Lior 305346660\bin\Debug\C18 Ex1 Rotem 204360002 Lior 305346660.exe.config
+C:\Users\USER\Documents\GitHub\DP.EX3_RotemAndLior\C18 Ex2 RotemMasoud 204360002 LiorBenYehuda 305346660\C18 Ex2 Rotem 204360002 Lior 305346660\obj\Debug\C18 Ex1 Rotem 204360002 Lior 305346660.exe
+C:\Users\USER\Documents\GitHub\DP.EX3_RotemAndLior\C18 Ex2 RotemMasoud 204360002 LiorBenYehuda 305346660\C18 Ex2 Rotem 204360002 Lior 305346660\obj\Debug\C18 Ex1 Rotem 204360002 Lior 305346660.pdb
+C:\Users\USER\Documents\GitHub\DP.EX3_RotemAndLior\C18 Ex2 RotemMasoud 204360002 LiorBenYehuda 305346660\C18 Ex2 Rotem 204360002 Lior 305346660\obj\Debug\C18 Ex2 Rotem 204360002 Lior 305346660.csprojResolveAssemblyReference.cache
+C:\Users\USER\Documents\GitHub\DP.EX3_RotemAndLior\C18 Ex2 RotemMasoud 204360002 LiorBenYehuda 305346660\C18 Ex2 Rotem 204360002 Lior 305346660\obj\Debug\C18_Ex1_Rotem_204360002_Lior_305346660.FaceApp.resources
+C:\Users\USER\Documents\GitHub\DP.EX3_RotemAndLior\C18 Ex2 RotemMasoud 204360002 LiorBenYehuda 305346660\C18 Ex2 Rotem 204360002 Lior 305346660\obj\Debug\C18 Ex2 Rotem 204360002 Lior 305346660.csproj.GenerateResource.Cache
+C:\Users\USER\Documents\GitHub\DP.EX3_RotemAndLior\C18 Ex2 RotemMasoud 204360002 LiorBenYehuda 305346660\C18 Ex2 Rotem 204360002 Lior 305346660\bin\Debug\C18 Ex1 Rotem 204360002 Lior 305346660.exe
+C:\Users\USER\Documents\GitHub\DP.EX3_RotemAndLior\C18 Ex2 RotemMasoud 204360002 LiorBenYehuda 305346660\C18 Ex2 Rotem 204360002 Lior 305346660\bin\Debug\C18 Ex1 Rotem 204360002 Lior 305346660.pdb
+C:\Users\USER\Documents\GitHub\DP.EX3_RotemAndLior\C18 Ex2 RotemMasoud 204360002 LiorBenYehuda 305346660\C18 Ex2 Rotem 204360002 Lior 305346660\bin\Debug\C18.Ex1.Logic.dll
+C:\Users\USER\Documents\GitHub\DP.EX3_RotemAndLior\C18 Ex2 RotemMasoud 204360002 LiorBenYehuda 305346660\C18 Ex2 Rotem 204360002 Lior 305346660\bin\Debug\Facebook.dll
+C:\Users\USER\Documents\GitHub\DP.EX3_RotemAndLior\C18 Ex2 RotemMasoud 204360002 LiorBenYehuda 305346660\C18 Ex2 Rotem 204360002 Lior 305346660\bin\Debug\FbGraphApiWrapper.dll
+C:\Users\USER\Documents\GitHub\DP.EX3_RotemAndLior\C18 Ex2 RotemMasoud 204360002 LiorBenYehuda 305346660\C18 Ex2 Rotem 204360002 Lior 305346660\bin\Debug\C18.Ex1.Logic.pdb
+C:\Users\USER\Documents\GitHub\DP.EX3_RotemAndLior\C18 Ex2 RotemMasoud 204360002 LiorBenYehuda 305346660\C18 Ex2 Rotem 204360002 Lior 305346660\obj\Debug\C18_Ex1_Rotem_204360002_Lior_305346660.Properties.Resources.resources

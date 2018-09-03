@@ -344,6 +344,51 @@ namespace C18_Ex1_Rotem_204360002_Lior_305346660
                     m_randomFriend.About = aboutTextBox.Text;
                }
          }
-          ////---------------------------------//
-     }
+        ////---------------------------------//
+
+
+        ///-----Strategy Desing----///
+        private void buttonA_To_Z_Friends_Click(object sender, EventArgs e)
+        {
+            listBoxFriendUser.Items.Clear();
+            User[] friendsArray = m_LoggedInUser.Friends.ToArray(); 
+            Sorter sorter = new Sorter((User frd1 , User frd2)
+                => String.Compare(frd1.Name, frd2.Name) > 0);
+            sorter.Sort(friendsArray);
+            foreach(User friend in friendsArray)
+            {
+                listBoxFriendUser.Items.Add(friend.Name);
+            }
+
+        }
+
+        private void buttonZ_To_A_Friends_Click(object sender, EventArgs e)
+        {
+            listBoxFriendUser.Items.Clear();
+            User[] friendsArray = m_LoggedInUser.Friends.ToArray(); 
+            Sorter sorter = new Sorter((User frd1, User frd2)
+                => String.Compare(frd1.Name, frd2.Name) < 0);
+            sorter.Sort(friendsArray);
+            foreach (User friend in friendsArray)
+            {
+                listBoxFriendUser.Items.Add(friend.Name);
+            }
+
+        }
+
+        private void buttonByAgeFriends_Click(object sender, EventArgs e)
+        {
+            listBoxFriendUser.Items.Clear();
+            User[] friendsArray = m_LoggedInUser.Friends.ToArray(); 
+            Sorter sorter = new Sorter((User frd1, User frd2)
+                => String.Compare(frd1.Birthday, frd2.Birthday) > 0);
+            sorter.Sort(friendsArray);
+            foreach (User friend in friendsArray)
+            {
+                listBoxFriendUser.Items.Add(friend.Name);
+            }
+
+        }
+        ////---------------------------------------////
+    }
 }

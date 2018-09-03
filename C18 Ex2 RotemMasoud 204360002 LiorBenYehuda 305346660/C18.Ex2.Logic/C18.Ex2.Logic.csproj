@@ -39,6 +39,7 @@
     <Compile Include="FaceAppLogic.cs" />
     <Compile Include="FilesManager.cs" />
     <Compile Include="MissingFriends.cs" />
+    <Compile Include="Sorter.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Facebook">
